@@ -1,5 +1,4 @@
 # BharatIntern
-<H1>BHARAT INTERN</H1>
 
 <h2>Web Development Tasks:</h2>
 
