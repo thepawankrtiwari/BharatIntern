@@ -1,0 +1,109 @@
+:root{
+    --green: #10a3c1;
+    --blue: #07374a;
+}
+body{
+    background: #07374a;
+    border: #10a3c1;
+    
+}
+main{
+    width: 100%;
+    max-width: 500px;
+    background: var(--blue);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid white;
+    border-radius: 10px;
+    max-height: 400px;
+    height: 75%;
+    border-spacing: 10px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+
+
+    
+}
+main h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    /*color: #0e5385;*/
+    color: rgba(255, 255, 255);
+    background: var(--green);
+    padding: 5px 0;
+    border-radius: 7px 7px 0 0;
+}
+main section{
+    justify-content: center;
+    align-content: center;
+    padding: 15px 20px;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+}
+main section select{
+    margin-bottom: 20px;
+    background: none!important;
+    border: 3px solid rgb(255, 255, 255)!important;
+    color: white!important;
+    font-weight: bolder!important;
+}
+main section select option{
+    background: #1775b7;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+}
+main section input{
+    margin-bottom: 20px;
+}
+#value2{
+    background: none;
+    border: none;
+    border-bottom: 5px solid white;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+#info{
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 10px 0!important;
+}
+main section button{
+    display: inline-block;
+    margin-top: 30px;
+    width: 100%;
+    border: none;
+    background: var(--green);
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    outline: none;
+    height: 50px;
+    height: 100%;
+}
+main section button:active{
+    transform: scale(1.1);
+}
+
+.head{
+    text-align: justify;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 600;
+    font-size:400%;
+    
+    
+
+}
+
