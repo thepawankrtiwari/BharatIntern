@@ -1,30 +1,32 @@
 :root{
     --green: #10a3c1;
-    --blue: #07374a;
+    --blue: #07374a;    
+    --black: #031572;
 }
 body{
-    background: #6cd0f7;
+    /* background: #6cd0f7; */
+    background:radial-gradient(circle, #009fef, #01082a);
+    /* background: linear-gradient(#e66465, #9198e5); */
     border: #020d0f;
     
 }
 main{
     width: 100%;
     max-width: 500px;
+    /* background: linear-gradient(#e66465, #9198e5); */
     background: var(--blue);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    border: 3px solid white;
+    border: 3px solid rgb(45, 43, 43);
     border-radius: 10px;
-    max-height: 400px;
-    height: 75%;
+    max-height: 440px;
+    height: 80%;
     border-spacing: 10px;
     justify-content: space-evenly;
-    align-content: space-evenly;
-
-
-    
+    align-content: space-evenly; 
+    box-shadow:3px 5px 9px rgb(1, 1, 1);
 }
 main h2{
     text-transform: uppercase;
@@ -34,9 +36,10 @@ main h2{
     font-size: 1.5rem;
     font-weight: 800;
     /*color: #0e5385;*/
-    color: rgba(255, 255, 255);
-    background: var(--green);
-    padding: 5px 0;
+    color: rgb(255, 255, 255);
+    background-color: #46B7F5;
+    /* background: var(--green); */
+    padding: 15px 55px;
     border-radius: 7px 7px 0 0;
 }
 main section{
@@ -79,9 +82,10 @@ main section input{
 main section button{
     display: inline-block;
     margin-top: 30px;
-    width: 100%;
+    width: 90%;
     border: none;
     background: var(--green);
+    background-color: #46B7F5;
     color: white;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -103,7 +107,5 @@ main section button:active{
     font-weight: 600;
     font-size:400%;
     
-    
-
 }
 

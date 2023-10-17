@@ -56,7 +56,7 @@
     background-color: #dc030f;
     border: 1px solid #dc030f;
     color: white;
-    padding: 0.25rem 0.25rem;
+    /* padding: 0.25rem 0.25rem; */
     border-radius: 4px;
   }
   
@@ -435,10 +435,10 @@
     }
   
     .signin__button {
-      padding: 12px 12px;
+      padding: 9px 12px;
       font-size: 12px;
       margin-right: 100px;
-      margin-top: 1px;
+      margin-top: 0px;
     }
     .dropdown__container {
       padding: 4px 8px;
