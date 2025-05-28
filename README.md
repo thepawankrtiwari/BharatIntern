@@ -7,7 +7,7 @@
 JAVASCRIPT to convert temperature form
 Celsius to Fahrenheit and etc.</h4>
 
-<h2> Homepage of Netflix:</h2>
+<h2> Netflix Clone:</h2>
 <h4>A simple website having similar homepage
 that of Netflix using using HTML and
 CSS.</h4>
